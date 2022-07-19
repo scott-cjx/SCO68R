@@ -8,3 +8,5 @@ These are the features that i wanted to implement before embarking on creating t
 - Neopixel (SK6812Mini) for indicators [for programming testing]
 - STM32 32bit processor
 
+## Problems
+- Kicad
