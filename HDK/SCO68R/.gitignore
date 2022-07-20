@@ -1,5 +1,5 @@
 *-backups/
 fp-info-cache
 *.round-tracks-config
-*.prl
+*.kicad_prl
 *.log
