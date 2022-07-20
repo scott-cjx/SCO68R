@@ -60,11 +60,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        "track_dangling|47380000|-41950000|1077bc89-d6c7-4fa6-b389-428938c02f05|00000000-0000-0000-0000-000000000000",
-        "track_dangling|50430000|-27420000|e46fa956-8254-4aad-948c-5aaf8a6b53d3|00000000-0000-0000-0000-000000000000",
-        "track_dangling|60300000|-48600000|381ee09c-bc5b-4709-ad98-ed7543344607|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -122,14 +118,13 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.39999999999999997,
+        "min_via_diameter": 0.7,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
-        0.2,
         0.254,
         0.3,
         0.5
@@ -140,8 +135,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.225
+          "diameter": 0.4,
+          "drill": 0.2
         },
         {
           "diameter": 0.7,
@@ -385,8 +380,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.5,
-        "via_drill": 0.225,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6.0
       },
       {
@@ -401,9 +396,7 @@
         "name": "Power",
         "nets": [
           "+3.3V",
-          "+5V",
-          "GND",
-          "VBUS"
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -422,12 +415,22 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Signal",
-        "nets": [],
+        "nets": [
+          "COL 0",
+          "COL 1",
+          "COL 2",
+          "COL 3",
+          "ROW 0",
+          "ROW 1",
+          "ROW 2",
+          "ROW 3",
+          "ROW 4"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.5,
-        "via_drill": 0.225,
+        "track_width": 0.3,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
         "wire_width": 6.0
       }
     ],
