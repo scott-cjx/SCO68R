@@ -1,0 +1,1 @@
+python3 HDK/SCO68R/docs/resources/bom_gen.py

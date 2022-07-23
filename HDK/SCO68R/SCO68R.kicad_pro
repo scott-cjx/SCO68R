@@ -484,7 +484,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SCO68R.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
